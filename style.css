@@ -1,0 +1,316 @@
+* {
+  border-style: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+  background-color: rgb(55 64 80);
+  color: rgb(162 171 189);
+}
+
+
+
+.top-section {
+  display: flex;
+}
+
+.top-button {
+  width:35px;
+  height: 30px;
+  border-radius: 25px;
+  color:rgb(156 163 174);
+}
+
+.open-button {
+  height:30px;
+  border-radius: 25px;
+  color:rgb(156 163 174);
+}
+
+.top-section-buttons {
+  display: flex;
+  padding:5px;
+  margin-left: 500px;
+}
+
+h4 {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.copy-btn {
+  color:white;
+  background-color:rgb(103 184 191);
+  height: 30px;
+  width: 54px;
+}
+
+.input-site {
+  height: 30px;
+  width:170px;
+  padding-left: 10px;
+}
+
+.nav-header {
+  color: rgb(104 117 140);
+}
+
+main {
+  display: grid;
+  background-color:rgb(234 239 243);
+}
+
+.top-section {
+  background-color: white;
+  padding-bottom: 30px;
+}
+.nav-text {
+  padding-bottom: 15px;
+  font-size: .75rem;
+}
+.facebook {
+  background-color:rgb(80 113 187);
+}
+
+.twitter {
+  background-color:rgb(71 168 233);
+}
+
+.linkedin {
+  background-color:rgb(52 128 184);
+}
+
+.header-search {
+  padding-left: 10px;
+}
+
+.fas {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-header {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.page-header {
+  display: flex;
+  height: 45px;
+  border: solid 1px grey;
+}
+
+.header-search {
+  width: 80%;
+  border:none;
+}
+
+.top-section {
+  padding-left: 30px;
+}
+
+.customer-service-header {
+  padding-bottom: 5px;
+  color: rgb(63 68 80);
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.top-location {
+  font-weight: lighter;
+}
+
+.button-and-input {
+  padding-top: 20px;
+  border-bottom: solid grey 3px;
+  margin-bottom: 30px;
+  padding-bottom:30px;
+}
+
+.job-text {
+  color:white;
+}
+
+.job-description {
+  background-color: rgb(113 125 137)
+}
+
+.top-section-page-selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.nav {
+  padding-bottom: 10px;
+}
+
+.header-icons {
+  display: flex;
+  width: auto;
+  float:right;
+}
+
+.header-icon1 , .header-icon3 , .header-icon2 {
+  width: 55px;
+}
+
+.lady-image {
+  height: 70px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+
+.circles-and-graph {
+  display: flex;
+  background-color:rgb(237 242 245);
+  width:100%;
+}
+.circle-div , .graph {
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-button {
+  width:150px;
+  height: 25px;
+  border-radius: 25px;
+  background-color:rgb(250 250 252);
+}
+
+.button1 { 
+  margin-left: 220px;
+}
+
+.button2 {
+  margin-left: 78px;
+}
+
+.card-text {
+  color: rgb(131 140 153);
+}
+
+.user-picture-name {
+  padding-left: 37px;
+  font-size:12px;
+}
+
+.sq1 {
+  color: yellow;
+}
+
+.sq2 {
+  color: blue;
+}
+.sq3 {
+  color: red;
+}
+.sq4 {
+  color: green;
+}
+
+.link-widget-resume {
+  grid-area: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 76px;
+  margin-top: 50px;
+}
+
+.links-and-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-description-card {
+  grid-area: left;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 600px;
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 12px;
+  background-color: white;
+  margin-bottom: 60px;
+}
+
+.card-left-side {
+  grid-column: 1 / span 1; 
+} 
+
+.card-right-side  {
+  grid-column: 2/ span 1;
+}
+
+.sd-btn {
+
+  width: 250px;
+  height: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.edit-button  {
+
+  width: 50px;
+  height: 16px;
+  background-color: rgb(126 139 164)
+}
+
+.card-side  {
+  display: grid;
+  grid-template-rows: 
+}
+
+.card-title-sec {
+  padding-left: 40px;
+  color: rgb(149 160 176);
+}
+
+.sd-p {
+  font-size: 12px;
+  width: 270px;
+  padding-left: 4px;
+}
+
+.bar-graph  {
+   width:300px;
+   height: 160px;
+}
+
+.top-selectors  {
+  border-bottom: solid rgb(29 158 244);
+}
+
+.lower-half {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "left right";
+  background-color: rgb(237 242 245);
+}
+
+.btm-right-title  {
+  color:rgb(108 119 135);
+  padding-bottom: 10px;
+}
+
+.circle-pic {
+  width: 370px;
+  height: 150px;
+  margin-left: 150px;
+  padding-right: 50px;
+}
+
+
